@@ -15,7 +15,7 @@ docker run -it -v $PWD/downloads:/downloads -e MAGNET_URI="magnet:?xt=urn:btih:5
 Clone this repository and go into it. Make your edits and build the image. 
 
 ```bash
-git clone THISREPO
+git clone https://github.com/kaikkitietokoneista/TorrentWithSpeedify
 cd TorrentWithSpeedify
 docker build . -t torrentwithspeedify
 ```
