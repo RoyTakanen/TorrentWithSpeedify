@@ -10,6 +10,6 @@ client.add(magnetURI, { path: '/downloads' }, function (torrent) {
 
     torrent.on('done', function () {
         console.log('torrent download finished')
-        //process.exit()
+        process.exit()
     })
 })
