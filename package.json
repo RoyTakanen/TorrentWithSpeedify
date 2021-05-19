@@ -1,0 +1,18 @@
+{
+  "name": "torrentanonymously",
+  "version": "1.0.0",
+  "description": "A cool image to torrent with speedify",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Speedify",
+    "Torrent"
+  ],
+  "author": "Kaikkitietokoneista",
+  "license": "AGPL-3.0-or-later",
+  "dependencies": {
+    "webtorrent": "^0.118.0"
+  }
+}
