@@ -2,7 +2,7 @@ FROM ubuntu:20.04
 
 ARG DEBIAN_FRONTEND=noninteractive
 
-RUN apt-get update && apt-get upgrade
+RUN apt-get update
 
 RUN apt-get -y install python3-pip nodejs npm git wget
 
